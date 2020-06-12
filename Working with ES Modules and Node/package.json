@@ -1,0 +1,14 @@
+{
+	"name": "working-with-esmodules-and-node",
+	"version": "1.0.0",
+	"description": "javascript, express, node, esmodule",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index"
+	},
+	"author": "Hector Romero",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1"
+	}
+}
