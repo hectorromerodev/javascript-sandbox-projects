@@ -1,9 +1,10 @@
-const fs = require('fs');
+import fs  from 'fs';
 
-const resHandler = (req, res, next) => {
+export const resHandler = (req, res, next) => {
   fs.readFile('my-page.html', 'utf8', (err, data) => {
     res.send(data);
   });
 };
 
-module.exports = resHandler;
+// module.exports = resHandler;
+// export default resHandler;

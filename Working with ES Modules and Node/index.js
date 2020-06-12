@@ -1,9 +1,10 @@
-const express = require('express');
+// const express = require('express');
+import express from 'express';
 
 const app = express();
 
-const resHanlder = require('./response-handler');
-const resHandler = require('./response-handler');
+// const resHanlder = require('./response-handler');
+import {resHandler} from './response-handler.js';
 
 
 app.get('/', resHandler);
